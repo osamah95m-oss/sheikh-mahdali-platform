@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sheikh Mahdli Platform
 
 ## Getting Started
 
@@ -15,6 +15,36 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Open from a mobile browser
+
+To open the platform from a phone on the same Wi-Fi network as your computer, start the
+development server so it listens on the network:
+
+```bash
+npm run dev:mobile
+```
+
+Then find your computer's local IP address:
+
+```bash
+hostname -I
+```
+
+On your phone, open:
+
+```text
+http://YOUR_LOCAL_IP:3000
+```
+
+For example, if the IP address is `192.168.1.25`, open:
+
+```text
+http://192.168.1.25:3000
+```
+
+Make sure the phone and computer are connected to the same network and that port `3000`
+is allowed by your firewall.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
